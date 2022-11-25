@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+#web3-header {
+    font-family: 'Inter' !important;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col-left-header {
+    margin-right: 2rem;
+}
+
+.promise-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    font-family: 'Inter' !important;
+    font-weight: 300;
+}
+
+.left-upper-readmore-btn {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    font-family: 'Inter' !important;
+    margin-left: 2rem;
+    border: none;
+    width: 10rem;
+    padding: 10px;
+}

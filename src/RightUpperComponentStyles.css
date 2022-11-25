@@ -1,0 +1,13 @@
+.right-upper-component{
+    background-color:hsl(240, 100%, 5%);
+}
+
+#right-upper-header{
+    color: hsl(35, 77%, 62%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.article-headers{
+    color: hsl(36, 100%, 99%);
+}
