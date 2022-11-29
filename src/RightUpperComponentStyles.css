@@ -1,3 +1,5 @@
+
+
 .right-upper-component{
     background-color:hsl(240, 100%, 5%);
 }
@@ -9,5 +11,18 @@
 }
 
 .article-headers{
+    font-family: 'Inter' !important;
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.article-preview-text{
+    font-family: 'Inter' !important;
+    color: hsl(233, 8%, 79%);
+    font-weight: 100;
+}
+
+.article-row-line-divider{
     color: hsl(36, 100%, 99%);
 }

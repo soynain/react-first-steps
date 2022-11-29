@@ -1,22 +1,19 @@
-import imageWebDesktop from '../../../public/images/image-web-3-desktop.jpg';
+
 import '../../LeftUpperComponentsStyles.css';
+import UpperLeftImg from './LeftImageComponent';
 import ReadMoreLeftUpper from './ReadMoreComponent';
 import Web3Header from './Web3HeaderComponent';
 function LeftUpperComponents() {
     const imageWebDesktopStyle = {
-        width: "45rem",
-        height: "18rem"
+        width: "100%",
+        height: "100%"
     }
     return (
-        <div className="col col-lg-8">
-            <div className="row">
-                <div className="col">
-                    <img style={imageWebDesktopStyle} src={imageWebDesktop} alt="" />
-                    <div className="row mt-3">
-                        <Web3Header/>
-                        <ReadMoreLeftUpper/>
-                    </div>
-                </div>
+        <div className="col col-lg-8 left-main-column">
+            <UpperLeftImg/>
+            <div className="row pt-2">
+                <Web3Header />
+                <ReadMoreLeftUpper />
             </div>
         </div>
     );

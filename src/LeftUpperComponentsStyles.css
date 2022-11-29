@@ -3,17 +3,28 @@
 
 #web3-header {
     font-family: 'Inter' !important;
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 700;
+    line-height: 3.4rem;
+    height: 100%;
 }
 
-.col-left-header {
-    margin-right: 2rem;
+.left-main-column{
+    padding-right: 3rem;
 }
+
+
+
+.navbar-container-block{
+    width: 30rem !important;
+}
+
+.navbar-list-principal{
+    width: 30rem;
+}
+
 
 .promise-text {
-    padding-left: 2rem;
-    padding-right: 2rem;
     text-align: left;
     font-family: 'Inter' !important;
     font-weight: 300;
@@ -23,7 +34,6 @@
     background-color: hsl(5, 85%, 63%);
     color: hsl(36, 100%, 99%);
     font-family: 'Inter' !important;
-    margin-left: 2rem;
     border: none;
     width: 10rem;
     padding: 10px;

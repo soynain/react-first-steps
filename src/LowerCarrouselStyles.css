@@ -1,0 +1,26 @@
+*{
+    border: 1px solid black;
+}
+
+.carrousel-card-headers {
+    font-family: 'Inter' !important;
+    color: hsl(233, 8%, 79%);
+    font-size: 2rem;
+}
+
+.carrousel-card-title {
+    font-family: 'Inter' !important;
+    font-size: medium;
+}
+
+.carrousel-card-text {
+    font-family: 'Inter' !important;
+    color: hsl(236, 13%, 42%);
+    font-weight: 100;
+    font-size: small;
+}
+
+.carrousel-main-row {
+    margin-top: 5.2rem !important;
+    margin-bottom: 3.5rem;
+}

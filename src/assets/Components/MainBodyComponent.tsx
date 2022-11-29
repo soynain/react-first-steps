@@ -1,26 +1,17 @@
 import LeftUpperComponents from "./LeftImageColumnsComponent";
 import '../../RightUpperComponentStyles.css';
+import RightUpperColumn from "./RightUpperColumnComponent";
+import LowerRowCarrouseLike from "./LowerRowComponent";
 function MainBody() {
     
     return (
-        <main className="bg-light container-fluid">
-            <div className="container pt-5 bg-light">
+        <main className="bg-light container-fluid overflow-hidden p-0">
+            <div className="container overflow-hidden pt-5 bg-light">
                 <div className="row">
                     <LeftUpperComponents/>
-
-                    <div className="col p-4 col-lg-4 col-md-2 right-upper-component d-flex flex-column justify-content-between">
-                        <header id="right-upper-header">
-                            New
-                        </header>
-                        <div className="row">
-                            <div className="col">
-                                <header className="article-headers">
-                                    Hydrogen VS Electric Cars
-                                </header>
-                            </div>
-                        </div>
-                    </div>
+                    <RightUpperColumn/>
                 </div>
+                <LowerRowCarrouseLike/>
             </div>
         </main>
     );
