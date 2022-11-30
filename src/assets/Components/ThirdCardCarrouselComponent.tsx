@@ -9,12 +9,12 @@ function ThirdCard() {
 
     return (
         <div className="col">
-            <div className="row">
+            <div className="row p-0">
                 <img src={imageGamingGrowth} style={thirdCarrouselImageProperties} alt="" />
-                <div className="col">
+                <div className="col p-0">
                     <header className="carrousel-card-headers text-left">03</header>
                     <dt className="carrousel-card-title">The Growth of Gaming</dt>
-                    <span className="carrousel-card-text">
+                    <span className="carrousel-card-text text-wrap">
                         How the pandemic has sparked <br /> fresh oportunities
                     </span>
                 </div>

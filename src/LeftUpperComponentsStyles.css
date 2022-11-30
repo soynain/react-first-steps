@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+
+
+
 #web3-header {
     font-family: 'Inter' !important;
     font-size: 55px;
@@ -9,11 +12,18 @@
     height: 100%;
 }
 
+#image-web-version{
+    width: 100%;
+    height: 100%;
+}
+
+#image-mobile-version{
+    display: none;
+}
+
 .left-main-column{
     padding-right: 3rem;
 }
-
-
 
 .navbar-container-block{
     width: 30rem !important;
@@ -37,4 +47,43 @@
     border: none;
     width: 10rem;
     padding: 10px;
+}
+
+@media screen and (max-width:990px) {
+
+    
+
+    #web3-header {
+        font-family: 'Inter' !important;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 2.8rem;
+        height: 100%;
+    }
+    
+    .main-upper-row,.row-header-and-read-more{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .left-main-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    #image-web-version{
+        display: none;
+    }
+
+
+    #image-mobile-version{
+        display: block;
+        width: 20rem;
+        height: 17rem;
+        object-fit: cover;
+    }
+
 }

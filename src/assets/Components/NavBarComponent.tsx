@@ -3,7 +3,7 @@ import '../../NavBarStyles.css';
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
-            <section className="container mt-5 p-0">
+            <section className="container mt-lg-5 p-0">
                 <a className="navbar-brand">
                     <img src={logo} alt="" />
                 </a>

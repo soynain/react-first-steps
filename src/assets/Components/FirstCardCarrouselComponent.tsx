@@ -6,10 +6,10 @@ function FirstCard() {
         padding:'0'
     };
     return (
-        <div className="col pe-5">
-            <div className="row">
+        <div className="col pe-lg-5">
+            <div className="row p-0">
                 <img src={imageRetroPcs} style={firstCarrouselImageProperties} alt="" />
-                <div className="col">
+                <div className="col p-0">
                     <header className="carrousel-card-headers text-left">01</header>
                     <dt className="carrousel-card-title">Reviving Retro PCs</dt>
                     <span className="carrousel-card-text">

@@ -6,7 +6,7 @@ import NavBar from './assets/Components/NavBarComponent'
 function App() {
  // const [count, setCount] = useState(0)
   return (
-    <div className="d-flex flex-column justify-content-center App">
+    <div className="App" id="quitar-margins">
         <NavBar/>
         <MainBody/>
     </div>

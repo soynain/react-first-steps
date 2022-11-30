@@ -8,10 +8,10 @@ function SecondCard() {
     };
 
     return (
-        <div className="col pe-5">
-            <div className="row">
+        <div className="col pe-lg-5">
+            <div className="row p-0">
                 <img src={imageTopLaptops} style={secondCarrouselImageProperties} alt="" />
-                <div className="col">
+                <div className="col p-0">
                     <header className="carrousel-card-headers text-left">02</header>
                     <dt className="carrousel-card-title">Top 10 Laptops of 2022</dt>
                     <span className="carrousel-card-text">

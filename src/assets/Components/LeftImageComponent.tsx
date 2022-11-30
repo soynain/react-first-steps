@@ -1,13 +1,11 @@
 import imageWebDesktop from '/images/image-web-3-desktop.jpg';
+import imageWebMovile from '/images/image-web-3-mobile.jpg';
 function UpperLeftImg() {
-    const imageWebDesktopStyle = {
-        width: "100%",
-        height: "100%"
-    }
     return (
-        <div className="row row-cols-1">
+        <div className="row image-web-container">
             <div className="col p-0">
-                <img style={imageWebDesktopStyle} src={imageWebDesktop} alt="" />
+                <img id="image-web-version" src={imageWebDesktop} alt="" />
+                <img id="image-mobile-version" src={imageWebMovile}/>
             </div>
         </div>
     );

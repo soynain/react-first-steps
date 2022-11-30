@@ -1,6 +1,6 @@
 function RightUpperColumn() {
     return (
-        <div className="col p-4 pb-0 right-upper-component d-flex flex-column justify-content-between">
+        <div className="col p-4 right-upper-component d-flex flex-column justify-content-between">
             <header id="right-upper-header">
                 New
             </header>
@@ -37,7 +37,6 @@ function RightUpperColumn() {
                         Private funding by VC firms is down 50%
                         YOY. We take a look at what that means.
                     </span>
-                    <hr className="article-row-line-divider" />
                 </div>
             </div>
         </div>
