@@ -7,7 +7,7 @@ function LeftUpperComponents() {
     return (
         <div className="col col-lg-8 left-main-column">
             <UpperLeftImg/>
-            <div className="row-lg pt-4 row-header-and-read-more">
+            <div className="row pt-4 row-header-and-read-more">
                 <Web3Header />
                 <ReadMoreLeftUpper />
             </div>

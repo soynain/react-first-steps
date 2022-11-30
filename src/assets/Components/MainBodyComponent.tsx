@@ -7,7 +7,7 @@ function MainBody() {
     return (
         <main className="bg-light container-lg-fluid p-0">
             <div className="container-lg pt-lg-5 pt-sm-0 bg-light">
-                <div className="row-lg main-upper-row">
+                <div className="row main-upper-row">
                     <LeftUpperComponents/>
                     <RightUpperColumn/>
                 </div>
